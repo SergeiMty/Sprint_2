@@ -29,7 +29,7 @@ class PointsForMeters:
 
 
 class TotalPoints(PointsForPlace, PointsForMeters):
-    """Итоговые очки = за место + за метры."""
+    
     def __init__(self):
         PointsForPlace.__init__(self)
         PointsForMeters.__init__(self)
